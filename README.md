@@ -346,3 +346,9 @@ tests/                   단위 테스트
 프로그램과 Playwright 브라우저를 실행해 둔 동안에만 감시합니다. 네이버의 이용약관과
 서비스 정책을 준수하고, 요청 주기를 불필요하게 짧게 설정하지 마세요. 이 프로그램은
 알림까지만 제공하며 실제 예약 성공을 보장하지 않습니다.
+
+cd "프로젝트 폴더 경로"
+bash run_macos.sh
+
+bash build_macos.sh
+open dist/ReservationMonitor.app
